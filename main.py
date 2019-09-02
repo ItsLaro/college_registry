@@ -1,7 +1,7 @@
 #imports
 import sys #to be able to call 'cls' and clear cmd
 import csv #to be able to use scv to store information
-from generators import number_generator #generator function being used to label students.
+import number_generator #generator function being used to label students.
 
 class Student:
     def __init__(self, fname, lname, major, pid, email, phone):
